@@ -164,8 +164,8 @@ python-ai-Ivanov-Ivan/
 
 ## 🆘 Помощь
 
-- **Telegram-канал курса**: [ссылка]
-- **Вопросы преподавателю**: @[ваш_telegram]
+- **Telegram-канал курса**: [t.me/PromptMagi](https://t.me/PromptMagi)
+- **Вопросы преподавателю**: @[componavt](https://t.me/componavt)
 - **Документация Python**: https://docs.python.org/3/
 - **Google Colab FAQ**: https://research.google.com/colaboratory/faq.html
 
@@ -173,7 +173,7 @@ python-ai-Ivanov-Ivan/
 
 ## 📚 Полезные ссылки
 
-- [Основы Python на русском](https://pythontutor.ru)
+- [Основы Python на русском](https://ru.pythontutor.ru)
 - [Pandas документация](https://pandas.pydata.org/docs/)
 - [Matplotlib галерея](https://matplotlib.org/stable/gallery/)
 
