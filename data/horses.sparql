@@ -1,14 +1,17 @@
-#Лошадь, годы жизни, породы
-#Horse, years of life, breeds
+# Лошадь, годы жизни, породы
+# Horse, years of life, breeds
 SELECT
   ?horse
   ?horseLabel
   (YEAR(?birthDate) AS ?birthYear)
   (YEAR(?deathDate) AS ?deathYear)
   ?genderLabel
+  ?breedLabel
 WHERE {
-  ?horse wdt:P31 wd:Q726.  # Особа — лошадь
-  ?horse wdt:P569 ?birthDate.  # Дата рождения
+  ?horse wdt:P31 wd:Q726;  # Особа — лошадь
+         wdt:P4743 ?breed; # Порода
+         wdt:P569 ?birthDate.  # Дата рождения
+  
   OPTIONAL { ?horse wdt:P570 ?deathDate. }  # Дата смерти
   OPTIONAL { ?horse wdt:P21 ?gender. }  # Пол
   SERVICE wikibase:label { bd:serviceParam wikibase:language "ru,en". }
