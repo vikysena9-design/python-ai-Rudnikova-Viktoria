@@ -14,5 +14,5 @@ WHERE {
   
   OPTIONAL { ?horse wdt:P570 ?deathDate. }  # Дата смерти
   OPTIONAL { ?horse wdt:P21 ?gender. }  # Пол
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "ru,en". }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "ru,en,fr". }
 }
